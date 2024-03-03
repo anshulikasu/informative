@@ -1,0 +1,29 @@
+.stck_d {
+  text-align: center;
+  color: #cacad1;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 20px;
+}
+
+.stck_d h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
+
+.stck_d p {
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+
+.stck_d button {
+  background-color: #7e7e85;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stck_d button:hover {
+  background-color: #ededf1; /* Change the background color on hover */
+}

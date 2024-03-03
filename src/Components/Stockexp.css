@@ -1,0 +1,48 @@
+.tips-section {
+  display: flex;
+  
+  align-items: center;
+ 
+  margin: 80px 0;
+}
+
+.tips_main{
+  width: 50%;
+}
+.tips_imgone {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.travel-card-tips{
+  width: 50%;
+  padding: 0 40px;
+  text-align: center;
+  
+}
+
+.travel-card-tips >h2{
+  font-size: 50px;
+  color:  #0077b5;
+  font-weight: 18px;
+}
+@media(max-width:1024px){
+  .tips-section{
+    margin: 10px 0;
+  }
+  .tips_main, .travel-card-tips{
+    width: 100%;
+  }
+  .tips_imgone{
+    height: 300px;
+  }
+}
+
+@media(max-width:767px){
+  .travelpoints >p {
+    font-size: 14px;
+  }
+
+}
+

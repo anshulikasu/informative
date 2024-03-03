@@ -1,0 +1,35 @@
+
+.experties {
+
+}
+
+.experties {
+  text-align: center; 
+}
+
+.experties h2,
+.experties p {
+  margin: 20px; 
+  color: white;
+}
+
+
+
+
+.exp-o {
+  display: flex;
+  flex-wrap: wrap; 
+
+  justify-content: space-around;
+}
+
+.expcom {
+  width: calc(28.33% - 10px); /* Adjust width for three components in first row */
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Expcom {
+    width: calc(50% - 20px); /* Adjust width for two components in second row */
+  }
+}

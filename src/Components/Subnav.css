@@ -1,0 +1,50 @@
+.subnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subnav > div {
+  margin-bottom: 10px; 
+  color: 
+  #FFFFFF
+  60%;
+}
+.subnav h1 {
+  color:  #FFFFFF;
+ 
+}
+
+
+.subnav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 25px; 
+}
+
+.subnav a:hover {
+  color: #666; 
+}
+.subnav_one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  width: 100%;
+}
+
+.subnav_one > div {
+  margin-bottom: 10px; /* Adjust spacing between each link */
+}
+
+.subnav_one a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 25px; 
+  font-weight: bold; 
+}
+
+.subnav_one a:hover {
+  color: #666; 
+}
